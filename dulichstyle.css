@@ -763,10 +763,10 @@ p.call a{
     content: '\f080';		
 }
 .t-contact .span3{
-	position:absolute;
+	position:relative;
 }
 .t-contact .span3 i{
-	position:relative;
+	position:absolute;
 	left:15px;
 	top:15px;
 }
