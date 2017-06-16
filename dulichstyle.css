@@ -733,3 +733,12 @@ p.call a{
 .home .main-holder .copyright .contact-f p{
 	margin-bottom:5px;
 }
+.fa-envelope {
+	margin: 3px 7px 3px 0;
+    vertical-align: top;
+    line-height: 20px;
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #FFF;
+    content: '\f0e0';	
+}
