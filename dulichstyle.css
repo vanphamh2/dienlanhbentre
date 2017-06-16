@@ -742,3 +742,11 @@ p.call a{
     color: #FFF;
     content: '\f0e0';	
 }
+.fa-phone:before{
+    vertical-align: top;
+    line-height: 20px;
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #FFF;
+    content: '\f095';		
+}
