@@ -750,3 +750,7 @@ p.call a{
     color: #FFF;
     content: '\f095';		
 }
+.span3 .fa-phone{
+	text-align:center;
+	margin-left:40px;
+}
