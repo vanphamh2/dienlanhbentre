@@ -702,3 +702,31 @@ p.call a{
 	70%{ left: 30%;  opacity: 0; }
 	100%{ left: -50%; opacity: 0; }
 }
+.copyright h5{
+	color:#FFF;
+	font-size:18px;
+	margin-bottom:10px;
+	
+}
+.copyright p.f-text{
+	color:#777;
+}
+.copyright .follow-by-email-address{
+	    height: 40px;
+    padding: 11px 32px 11px 19px;
+    border-radius: 50px 0 0 50px;
+}
+.copyright .follow-by-email-submit{
+	
+    min-width: 30px;
+    padding: 8px 12px;
+	color: #fff;
+    background-color: #42a4ff;
+    border-color: #42a4ff;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(19, 108, 191, 0.31);
+    box-shadow: 0px 2px 10px 0px rgba(19, 108, 191, 0.31);
+    font-size: 12px;
+    line-height: 1.57143;
+    border-radius: 50px;
+    letter-spacing: .02em;
+}
