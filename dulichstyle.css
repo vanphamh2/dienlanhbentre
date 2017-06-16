@@ -765,3 +765,11 @@ p.call a{
     color: #FFF;
     content: '\f080';		
 }
+.t-contact .span3{
+	position:relative;
+}
+.t-contact .span3 i{
+	position:absolute;
+	left:40px;
+	top:40px;
+}
