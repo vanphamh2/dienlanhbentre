@@ -730,3 +730,6 @@ p.call a{
     border-radius: 50px;
     letter-spacing: .02em;
 }
+.home .main-holder .copyright .contact-f p{
+	margin-bottom:5px;
+}
