@@ -754,13 +754,14 @@ p.call a{
 .span3 .fa-phone{
 	text-align:center;
 	margin-left:40px;
-	margin-top:40px;
+	padding-top:40px;
 }
 .fa-map-marker:before{
+	margin: 3px 7px 3px 0;
     vertical-align: top;
     line-height: 20px;
     font-family: FontAwesome;
     font-size: 18px;
     color: #FFF;
-    content: '\f040';		
+    content: '\f080';		
 }
