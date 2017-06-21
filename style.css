@@ -44144,3 +44144,6 @@ img.mfp-img {
 .mobile_hl .fa-mobile:before{
 	font-size:20px;	
 }
+.counter-wrap span:before{
+	font-size:24px;		
+}
