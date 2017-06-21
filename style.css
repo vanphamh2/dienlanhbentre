@@ -44133,9 +44133,11 @@ img.mfp-img {
   right: 0;
   padding-top: 0;
 }
-.mobile_hl {
+.mobile_hl a{
 	font-size:16px;
+	color:#000;
 }
 .mobile_hl i{
 	color:#42a4ff;
+	font-size:18px;
 }
