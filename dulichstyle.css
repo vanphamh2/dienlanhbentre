@@ -787,3 +787,10 @@ p.call a{
     margin-top: 0;
     margin-bottom: 5px;
 }
+.bs-callout i.fa-check-circle:before{
+	font:FontAwesome;
+	content: "\f058";
+	color:#090;
+	font-size:18px;
+	margin-right:10px;
+}
