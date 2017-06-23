@@ -788,7 +788,7 @@ p.call a{
     margin-bottom: 5px;
 }
 .bs-callout i.fa-check-circle:before{
-	font:FontAwesome;
+	font-family:FontAwesome;
 	content: "\f058";
 	color:#090;
 	font-size:18px;
