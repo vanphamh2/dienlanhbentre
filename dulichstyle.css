@@ -812,3 +812,20 @@ h3.page-header{
 .home blockquote{
 	border-left:5px solid #ce4844;
 }
+.btn-primaryh{
+	    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #efd701;
+    background-image: -moz-linear-gradient(top,#f9c001,#dff901);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f9c001),to(#dff901));
+    background-image: -webkit-linear-gradient(top,#f9c001,#dff901);
+    background-image: -o-linear-gradient(top,#f9c001,#dff901);
+    background-image: linear-gradient(to bottom,#f9c001,#dff901);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff9c001',endColorstr='#ffdff900',GradientType=0);
+    border-color: #dff901 #dff901 #9bad01;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled= false);
+	border-radius:5px;
+	font-size:12px;
+}
