@@ -797,4 +797,8 @@ p.call a{
 }
 h3.page-header{
 	    border-bottom: 1px solid #eee;
+		    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
 }
