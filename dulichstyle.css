@@ -802,11 +802,12 @@ h3.page-header{
     line-height: 1.1;
     color: inherit;
 }
-h4.ttour{
+.home h4.ttour{
 	    color: #ce4844;
 		    font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
+	text-transform:capitalize;
 }
 .home blockquote{
 	border-left:5px solid #ce4844;
