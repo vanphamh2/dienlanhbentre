@@ -795,3 +795,6 @@ p.call a{
 	margin-right:10px;
 	font-style:normal;
 }
+h3.page-header{
+	    border-bottom: 1px solid #eee;
+}
