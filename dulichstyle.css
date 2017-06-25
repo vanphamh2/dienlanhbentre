@@ -814,7 +814,7 @@ h3.page-header{
 }
 .btn-primaryh{
 	color: #fff;
-    background-color: #f0ad4e;
+    background-color: #f9c001;
     border-color: #eea236;
 	border-radius:5px;
 	font-size:12px;
@@ -825,8 +825,11 @@ h3.page-header{
 .content_box:before {
     left: -99%;
 }
+.content_box:after {
+    right: -99%;
+}
 .content_box:after, .content_box:before {
-    background: #f0ad4e;
+    background: #f9c001;
     content: "";
     position: absolute;
     top: 0;
