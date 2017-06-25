@@ -852,6 +852,7 @@ h3.page-header{
 	position: relative;
 	background:#f9c001;
 	color:#FFF;
+	padding:0px;
 }
 .title-box .bg-diamond-element{
 	position: absolute;
