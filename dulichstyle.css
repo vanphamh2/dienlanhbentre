@@ -840,3 +840,6 @@ h3.page-header{
 .content_box {
     position: relative;
 }
+.service-box h2 a{
+	color:#FFF;
+}
