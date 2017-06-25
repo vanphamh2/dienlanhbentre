@@ -826,11 +826,14 @@ h3.page-header{
     left: -99%;
 }
 .content_box:after, .content_box:before {
-    background: #F5F5F5;
+    background: #f0ad4e;
     content: "";
     position: absolute;
     top: 0;
     width: 101%;
     height: 100%;
     z-index: -1;
+}
+.content_box {
+    position: relative;
 }
