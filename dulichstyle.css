@@ -850,11 +850,10 @@ h3.page-header{
 }
 .title-box h2.title-box_primary{
 	position: relative;
-	background:#f9c001;
-	color:#FFF;
+	border:thin solid #f9c001;
 	padding:0px;
 	margin-bottom:25px;
-	font-size:14px;
+	font-size:25px;
 }
 .title-box .bg-diamond-element{
 	position: absolute;
