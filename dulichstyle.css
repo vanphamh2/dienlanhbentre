@@ -822,9 +822,15 @@ h3.page-header{
 	font-weight:bold;
 	margin-left:5px;
 }
-.bgt{
-	    background-image: url(https://livedemo00.template-help.com/wordpress_54988/wp-content/uploads/2015/03/parallax.jpg);
-    width: 1119px;
-    height: 303px;
-	overflow:hidden;
+.content_box:before {
+    left: -99%;
+}
+.content_box:after, .content_box:before {
+    background: #F5F5F5;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 101%;
+    height: 100%;
+    z-index: -1;
 }
