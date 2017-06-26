@@ -877,8 +877,8 @@ h3.page-header{
 
 }
 .hottop{
-	border-left:thin solid #f2f2f2;
-	padding-right:10px;
+	border-left:thin solid #CCC;
+	padding-left:10px;
 }
 .form-control{
 	display: block;
@@ -897,5 +897,5 @@ h3.page-header{
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-}
+
 }
