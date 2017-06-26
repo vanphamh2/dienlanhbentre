@@ -867,3 +867,11 @@ h3.page-header{
     pointer-events: none;
     background: #f9c001;
 }
+.fa-phone-square:before{
+    vertical-align: middle;
+    line-height: 20px;
+    font-family: FontAwesome;
+    font-size: 22px;
+    color: #FFF;
+    content: '\f098';		
+}
