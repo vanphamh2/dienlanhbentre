@@ -899,3 +899,6 @@ h3.page-header{
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 
 }
+.home .form-area{
+	width:100%;
+}
