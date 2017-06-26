@@ -873,5 +873,6 @@ h3.page-header{
     font-family: FontAwesome;
     font-size: 22px;
     color: #e25249;
-    content: '\f098';		
+    content: '\f098';
+	margin:50% 0 0 50%;
 }
