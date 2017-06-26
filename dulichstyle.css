@@ -879,3 +879,8 @@ h3.page-header{
 .hottop{
 	border-left:thin solid #292929;
 }
+.contact-form input{
+	width:100%;
+	padding:5px;
+	text-indent:10px;
+}
