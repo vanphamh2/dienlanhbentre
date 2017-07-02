@@ -918,7 +918,12 @@ h3.page-header{
 }
 .home h3.btn-success i:before{
 	line-height:30px;
+	font-size:24px;
+	font-weight:300;
 }
 .home h3.btn-success a{
+	color:#FFF;
+}
+.home h3.btn-success small{
 	color:#FFF;
 }
