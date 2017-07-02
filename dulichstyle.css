@@ -914,4 +914,11 @@ h3.page-header{
 	text-align:center;
 	font-size:24px;
 	padding:10px 0px 10px 0px;
+	color:#FFF;
+}
+.home h3.btn-success i:before{
+	line-height:30px;
+}
+.home h3.btn-success a{
+	color:#FFF;
 }
