@@ -927,3 +927,11 @@ h3.page-header{
 .home h3.btn-success small{
 	color:#FFF;
 }
+.bs-callout i.fa-times:before {
+    font-family: FontAwesome;
+    content: "\f00d";
+    color: #666;
+    font-size: 18px;
+    margin-right: 10px;
+    font-style: normal;
+}
