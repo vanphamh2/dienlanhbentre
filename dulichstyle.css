@@ -935,3 +935,12 @@ h3.page-header{
     margin-right: 10px;
     font-style: normal;
 }
+.cp-header{
+	border:1px solid #e9eaed;
+	position:relative;
+}
+.cp-header .cp-title{
+	position:absolute;
+	left:20px;
+	top:-50px;
+}
