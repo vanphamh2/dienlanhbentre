@@ -954,9 +954,8 @@ h3.page-header{
 	margin:0px;
 }
 .cp-menubar ul{
-	border:thin solid #e9eaed;
 	border-radius:2px;
-	display:block;
+	
 }
 .cp-menubar ul li{
 	padding:5px;
