@@ -963,9 +963,11 @@ h3.page-header{
 	font-size:12px;
 }
 .home .cp-menubar ul li{
-	padding:0px;
+	padding:10px 0px 0px 0px;
 	display:inline-block;
-	border:thin solid #ced0d4;
+	border-right:thin solid #ced0d4;
+	border-top:thin solid #ced0d4;
+	border-bottom:thin solid #ced0d4;
 	text-align:left;
 	text-indent:5px;
 	font-weight:bold;
@@ -1014,4 +1016,10 @@ i.fa-star:before {
 .cp-menubar-right span{
 	color:#42b72a;
 	font-size:11px;
+}
+.conf{
+	width:90%;
+	margin:auto;
+	border:thin solid #CCC;
+	border-radius:3px;
 }
