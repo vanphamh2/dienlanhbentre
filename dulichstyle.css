@@ -965,3 +965,11 @@ h3.page-header{
 	position:relative;
 
 }
+.cp-img img{
+	image-rendering: optimizeQuality;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+	top:0;
+}
