@@ -1002,16 +1002,25 @@ i.fa-map-marker:before {
     font-family: FontAwesome;
     content: "\f041";
     color: #4267b2;
-    font-size: 14px;
+    font-size: 16px;
     margin-right: 10px;
     font-style: normal;
-	line-height:24px;
+	line-height:20px;
 }
 i.fa-star:before {
     font-family: FontAwesome;
     content: "\f005";
     color: #4267b2;
-    font-size: 14px;
+    font-size: 16px;
+    margin-right: 2px;
+    font-style: normal;
+	line-height:24px;
+}
+i.fa-mobile:before {
+    font-family: FontAwesome;
+    content: "\f10b";
+    color: #4267b2;
+    font-size: 16px;
     margin-right: 2px;
     font-style: normal;
 	line-height:24px;
