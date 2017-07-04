@@ -951,6 +951,7 @@ h3.page-header{
 .cp-header .cp-title h1{
 	text-rendering: optimizelegibility;
     text-shadow: 0 0 3px rgba(0,0,0,.8);
+	margin:0px;
 }
 .cp-menubar ul{
 	border:thin solid #e9eaed;
