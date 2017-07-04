@@ -958,7 +958,8 @@ h3.page-header{
 .cp-menubar ul{
 	border-radius:2px;
 	width:80%;
-	border:thin solid #e9eaed;
+	margin-left:10px;
+	border:thin solid #ced0d4;
 	font-size:12px;
 	background:#f6f7f9;
 }
@@ -986,7 +987,15 @@ h3.page-header{
 	width:28%;
 	float:left;
 }
-cp-title small{
+.cp-title small{
 	font-size:16px;
 	font-weight:bold;
+}
+i.fa-map-marker:before {
+    font-family: FontAwesome;
+    content: "\f041";
+    color: #4267b2;
+    font-size: 14px;
+    margin-right: 10px;
+    font-style: normal;
 }
