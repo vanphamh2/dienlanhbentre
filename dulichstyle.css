@@ -1002,7 +1002,7 @@ i.fa-map-marker:before {
     font-family: FontAwesome;
     content: "\f041";
     color: #4267b2;
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 10px;
     font-style: normal;
 	line-height:20px;
@@ -1020,10 +1020,10 @@ i.fa-mobile:before {
     font-family: FontAwesome;
     content: "\f10b";
     color: #4267b2;
-    font-size: 16px;
-    margin-right: 2px;
-    font-style: normal;
-	line-height:24px;
+    font-size: 18px;
+    margin-right: 5px;
+  	 font-style: normal;
+	line-height:20px;
 }
 .cp-menubar-right span{
 	color:#42b72a;
