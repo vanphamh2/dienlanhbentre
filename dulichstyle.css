@@ -947,6 +947,7 @@ h3.page-header{
 	color:#FFF;
 	padding-top:210px;
 	padding-bottom:10px;
+	padding-left:10px;
 	border-bottom:1px solid #e9eaed;
 }
 .cp-header .cp-title h1{
@@ -980,10 +981,4 @@ h3.page-header{
 .cp-menubar-right{
 	width:28%;
 	float:left;
-}
-.cp-img img{
-	image-rendering: optimizeQuality;
-    min-height: 100%;
-    min-width: 100%;
-	background:url(new1.html)
 }
