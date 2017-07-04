@@ -985,6 +985,7 @@ h3.page-header{
 	float:left;
 	width:100%;
 	padding-top:10px;
+	margin-bottom:20px;
 }
 .cp-menubar-left{
 	width:75%;
@@ -1132,6 +1133,5 @@ i.fa-mobile:before {
 	margin: 4px auto;
 }
 .styletour{
-	clear:left;
 	margin:30px 0px 10px 0px;
 }
