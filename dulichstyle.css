@@ -973,7 +973,9 @@ h3.page-header{
 .cp-menubar{
 	background:#FFF;
 	clear:both;
-	border: 1px solid #d0d1d5;
+	border-bottom: 1px solid #d0d1d5;
+	border-left: 1px solid #d0d1d5;
+	border-right: 1px solid #d0d1d5;
     border-radius: 3px;
 	float:left;
 	width:100%;
