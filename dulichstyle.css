@@ -956,7 +956,6 @@ h3.page-header{
 	margin:0px;
 }
 .home .cp-menubar ul{
-	border-radius:2px;
 	width:100%;
 	margin:0px 0px 0px 10px;
 	padding:0px;
@@ -968,6 +967,8 @@ h3.page-header{
 	text-align:left;
 	font-weight:bold;
 	margin:0px;
+	padding:5px 10px 5px 10px;
+	line-height:1.5em;
 	
 }
 .cp-menubar{
