@@ -1037,6 +1037,7 @@ i.fa-mobile:before {
 	background:#f6f7f9;
 }
 .conf li div{
-	padding-top:5px;
+	position:absolute;
+	top:5px;
 }
 aaaa
