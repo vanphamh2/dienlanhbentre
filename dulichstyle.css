@@ -946,6 +946,7 @@ h3.page-header{
 .cp-header .cp-title{
 	color:#FFF;
 	padding-top:210px;
+	padding-bottom:10px;
 	border-bottom:1px solid #e9eaed;
 }
 .cp-header .cp-title h1{
@@ -965,6 +966,11 @@ h3.page-header{
 }
 .cp-menubar{
 	clear:both;
+	width:100%;
+	padding:12px;
+	border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
 }
 .cp-menubar-left{
 	width:70%;
