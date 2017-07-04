@@ -957,13 +957,18 @@ h3.page-header{
 }
 .cp-menubar ul{
 	border-radius:2px;
-	width:95%;
+	width:80%;
 	border:thin solid #e9eaed;
+	font-size:12px;
+	background:#f6f7f9;
 }
 .cp-menubar ul li{
 	padding:5px;
 	display:inline-block;
 	border-right:thin solid #e9eaed;
+	text-align:left;
+	text-indent:5px;
+	font-weight:bold;
 }
 .cp-menubar{
 	clear:both;
