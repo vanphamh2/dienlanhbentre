@@ -1132,8 +1132,6 @@ i.fa-mobile:before {
 	margin: 4px auto;
 }
 .styletour{
-	clear:both;
+	clear:left;
 	margin:30px 0px 10px 0px;
-	border:thin solid #CCC;
-	background:#FFF;
 }
