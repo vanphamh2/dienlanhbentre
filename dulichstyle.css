@@ -955,10 +955,16 @@ h3.page-header{
 }
 .cp-menubar ul{
 	border-radius:2px;
-	
+	width:95%;
+	border:thin solid #e9eaed;
 }
 .cp-menubar ul li{
 	padding:5px;
 	display:inline-block;
 	border-right:thin solid #e9eaed;
+}
+.cp-menubar{
+	clear:both;
+	position:absolute;
+	bottom:0;
 }
