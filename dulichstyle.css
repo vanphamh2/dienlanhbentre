@@ -937,12 +937,17 @@ h3.page-header{
 }
 .cp-header{
 	border:1px solid #e9eaed;
+	height:100%;
+	width:100%;
+	position:relative;
 }
 .cp-header .cp-img{
 	border-bottom:1px solid #e9eaed;
 }
 .cp-header .cp-title{
 	color:#FFF;
+	position:absolute;
+	bottom:50px;
 }
 .cp-header .cp-title h1{
 	text-rendering: optimizelegibility;
@@ -961,6 +966,7 @@ h3.page-header{
 }
 .cp-menubar{
 	clear:both;
+	position:absolute;
 }
 .cp-img img{
 	image-rendering: optimizeQuality;
