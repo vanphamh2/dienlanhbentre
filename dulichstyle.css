@@ -952,3 +952,14 @@ h3.page-header{
 	text-rendering: optimizelegibility;
     text-shadow: 0 0 3px rgba(0,0,0,.8);
 }
+.cp-menubar ul{
+	float:left;
+	border:thin solid #e9eaed;
+	border-radius:2px;
+	display:block;
+}
+.cp-menubar ul li{
+	padding:5px;
+	display:inline-block;
+	border-right:thin solid #e9eaed;
+}
