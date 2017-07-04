@@ -959,17 +959,18 @@ h3.page-header{
 	border-radius:2px;
 	width:80%;
 	margin-left:10px;
-	border:thin solid #ced0d4;
 	font-size:12px;
 	background:#f6f7f9;
 }
 .cp-menubar ul li{
 	padding:5px;
 	display:inline-block;
-	border-right:thin solid #e9eaed;
+	border:thin solid #ced0d4;
 	text-align:left;
 	text-indent:5px;
 	font-weight:bold;
+	margin:0px;
+	
 }
 .cp-menubar{
 	clear:both;
@@ -998,4 +999,5 @@ i.fa-map-marker:before {
     font-size: 14px;
     margin-right: 10px;
     font-style: normal;
+	line-height:24px;
 }
