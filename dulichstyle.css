@@ -945,6 +945,9 @@ h3.page-header{
 }
 .cp-header .cp-title{
 	color:#FFF;
+	margin:10px;
+	min-height:315px;
+	border-bottom:1px solid #e9eaed;
 }
 .cp-header .cp-title h1{
 	text-rendering: optimizelegibility;
