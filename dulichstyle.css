@@ -1112,14 +1112,14 @@ i.fa-mobile:before {
 #amazingcarousel-7 .amazingcarousel-prev {
 	left: 0%;
 	top: 50%;
-	margin-left: -60px;
+	margin-left: -30px;
 	margin-top: -24px;
 }
 
 #amazingcarousel-7 .amazingcarousel-next {
 	right: 0%;
 	top: 50%;
-	margin-right: -60px;
+	margin-right: -30px;
 	margin-top: -24px;
 }
 
