@@ -1008,7 +1008,11 @@ i.fa-star:before {
     content: "\f005";
     color: #4267b2;
     font-size: 14px;
-    margin-right: 5px;
+    margin-right: 2px;
     font-style: normal;
 	line-height:24px;
+}
+.cp-menubar-right span{
+	color:#42b72a;
+	font-size:11px;
 }
