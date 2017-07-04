@@ -1132,6 +1132,10 @@ i.fa-mobile:before {
 #amazingcarousel-7 .amazingcarousel-bullet-wrapper {
 	margin: 4px auto;
 }
-.styletour{
-	margin:30px 0px 10px 0px;
+.styleM{
+	background:#FFF;
+	border:thin solid #CCC;
+	padding-left:5px;
+	margin-bottom:10px;
+	border-radius:5px;
 }
