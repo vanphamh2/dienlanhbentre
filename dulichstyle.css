@@ -955,10 +955,10 @@ h3.page-header{
     text-shadow: 0 0 3px rgba(0,0,0,.8);
 	margin:0px;
 }
-.cp-menubar ul{
+.home .cp-menubar ul{
 	border-radius:2px;
 	width:80%;
-	margin-left:10px;
+	margin:0px;
 	font-size:12px;
 	background:#f6f7f9;
 }
@@ -969,7 +969,7 @@ h3.page-header{
 	text-align:left;
 	text-indent:5px;
 	font-weight:bold;
-	margin:0px;
+
 	
 }
 .cp-menubar{
