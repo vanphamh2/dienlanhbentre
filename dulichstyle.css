@@ -937,15 +937,12 @@ h3.page-header{
 }
 .cp-header{
 	border:1px solid #e9eaed;
-	position:relative;
 }
 .cp-header .cp-img{
 	border-bottom:1px solid #e9eaed;
 }
 .cp-header .cp-title{
-	position:absolute;
-	left:20px;
-	bottom:70px;
+	position:relative;
 	color:#FFF;
 }
 .cp-header .cp-title h1{
@@ -965,6 +962,6 @@ h3.page-header{
 }
 .cp-menubar{
 	clear:both;
-	position:absolute;
-	bottom:0;
+	position:relative;
+
 }
