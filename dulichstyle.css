@@ -956,7 +956,7 @@ h3.page-header{
 	margin:0px;
 }
 .home .cp-menubar ul{
-	width:auto;
+	width:100%;
 	margin:0px 0px 0px 10px;
 	padding:0px;
 	font-size:12px;
@@ -977,7 +977,7 @@ h3.page-header{
 	border: 1px solid #d0d1d5;
     border-radius: 3px;
 	float:left;
-	width:auto;
+	width:100%;
 	padding-top:10px;
 }
 .cp-menubar-left{
