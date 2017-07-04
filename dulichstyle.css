@@ -945,8 +945,7 @@ h3.page-header{
 }
 .cp-header .cp-title{
 	color:#FFF;
-	margin:10px;
-	padding-top:240px;
+	padding-top:210px;
 	border-bottom:1px solid #e9eaed;
 }
 .cp-header .cp-title h1{
@@ -965,7 +964,15 @@ h3.page-header{
 	border-right:thin solid #e9eaed;
 }
 .cp-menubar{
-	
+	clear:both;
+}
+.cp-menubar-left{
+	width:70%;
+	float:left;
+}
+.cp-menubar-right{
+	width:28%;
+	float:left;
 }
 .cp-img img{
 	image-rendering: optimizeQuality;
