@@ -982,11 +982,11 @@ h3.page-header{
 	padding-top:10px;
 }
 .cp-menubar-left{
-	width:80%;
+	width:75%;
 	float:left;
 }
 .cp-menubar-right{
-	width:20%;
+	width:25%;
 	float:left;
 }
 .cp-title small{
@@ -1016,7 +1016,7 @@ i.fa-star:before {
 	font-size:12px;
 }
 .conf{
-	width:90%;
+	width:98%;
 	margin:auto;
 	border:thin solid #CCC;
 	border-radius:3px;
