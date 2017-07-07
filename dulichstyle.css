@@ -1260,3 +1260,31 @@ a.read small{
 	font-weight:bold;
 	text-decoration:underline;
 }
+.fa-youtube-play:before{
+	font-family: FontAwesome;
+    content: "\f16a";
+    color: #79868e;
+    font-size: 18px;
+    margin-right: 10px;
+    font-style: normal;
+    line-height: 20px;
+}
+.conf{
+	width:95%;
+	margin:auto;
+	border-right:thin solid #CCC;
+	border-radius:3px;
+	background:#FFF;
+}
+.conf i:before{
+	color: #79868e;
+    font-size: 18px;
+    margin-right: 10px;
+    font-style: normal;
+    line-height: 20px;
+	font-family: FontAwesome;
+}
+.home .cp-menubar ul li a{
+	font-weight:600;
+	color:#39464f;
+}
