@@ -829,7 +829,7 @@ h3.page-header{
     right: -99%;
 }
 .content_box:after, .content_box:before {
-    background: #f9c001;
+    background: #FFF;
     content: "";
     position: absolute;
     top: 0;
