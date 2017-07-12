@@ -1289,3 +1289,40 @@ a.read small{
 	font-weight:600;
 	color:#39464f;
 }
+.home .tour1{
+ clear:both;
+ margin-top:10px;
+}
+.home .tour1 .fa{
+ display: inline-block;
+    font-family:FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+ font-size:34px;
+ font-weight:normal;
+ color:green;
+ width:50px;
+ height:50px;
+ text-align:center;
+ font-style:normal;
+ float:left;
+ 
+}
+.fa-search:before{
+ content:'\f00e';
+}
+.tour2 h5{
+	font-weight:600;
+	display:inline-block;
+	border-right:thin solid #CCC;
+	padding:0px 10px 0px 10px;
+	color: #ff5a5f;
+}
+.tour2{
+	border: 4px solid #f5f3f1;
+	padding:10px;
+	text-align:center;
+	margin-top:10px;
+}
