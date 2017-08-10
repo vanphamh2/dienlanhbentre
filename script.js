@@ -1255,11 +1255,11 @@ $document.ready(function () {
    */
   if (plugins.slick.length) {
     var i;
-    for (i = 0; i < plugins.slick.length; i++) {
+    for (i = 2; i < plugins.slick.length; i++) {
       var $slickItem = $(plugins.slick[i]);
       console.log($slickItem);
       $slickItem.slick({
-        slidesToScroll: parseInt($slickItem.attr('data-slide-to-scroll')) || 1,
+        slidesToScroll: parseInt($slickItem.attr('data-slide-to-scroll')) || 3,
         asNavFor: $slickItem.attr('data-for') || false,
         dots: $slickItem.attr("data-dots") == "true",
         infinite: true,
@@ -1276,13 +1276,13 @@ $document.ready(function () {
             breakpoint: 0,
             settings: {
               centerMode: $slickItem.attr("data-mobile-center-mode") == "true",
-              slidesToShow: parseInt($slickItem.attr('data-items')) || 1
+              slidesToShow: parseInt($slickItem.attr('data-items')) || 2
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: parseInt($slickItem.attr('data-xs-items')) || 2
+              slidesToShow: parseInt($slickItem.attr('data-xs-items')) || 3
             }
           },
           {
@@ -1306,7 +1306,7 @@ $document.ready(function () {
             settings: {
               centerPadding: 0,
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
-              slidesToShow: parseInt($slickItem.attr('data-lg-items')) || 1
+              slidesToShow: parseInt($slickItem.attr('data-lg-items')) || 2
             }
           },
           {
@@ -1314,7 +1314,7 @@ $document.ready(function () {
             settings: {
               centerPadding: 0,
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
-              slidesToShow: parseInt($slickItem.attr('data-xl-items')) || 1
+              slidesToShow: parseInt($slickItem.attr('data-xl-items')) || 2
             }
           }
         ]
