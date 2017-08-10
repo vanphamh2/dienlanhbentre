@@ -1255,11 +1255,11 @@ $document.ready(function () {
    */
   if (plugins.slick.length) {
     var i;
-    for (i = 2; i < plugins.slick.length; i++) {
+    for (i = 0; i < plugins.slick.length; i++) {
       var $slickItem = $(plugins.slick[i]);
       console.log($slickItem);
       $slickItem.slick({
-        slidesToScroll: parseInt($slickItem.attr('data-slide-to-scroll')) || 3,
+        slidesToScroll: parseInt($slickItem.attr('data-slide-to-scroll')) || 1,
         asNavFor: $slickItem.attr('data-for') || false,
         dots: $slickItem.attr("data-dots") == "true",
         infinite: true,
@@ -1276,13 +1276,13 @@ $document.ready(function () {
             breakpoint: 0,
             settings: {
               centerMode: $slickItem.attr("data-mobile-center-mode") == "true",
-              slidesToShow: parseInt($slickItem.attr('data-items')) || 2
+              slidesToShow: parseInt($slickItem.attr('data-items')) || 1
             }
           },
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: parseInt($slickItem.attr('data-xs-items')) || 3
+              slidesToShow: parseInt($slickItem.attr('data-xs-items')) || 1
             }
           },
           {
@@ -1290,7 +1290,7 @@ $document.ready(function () {
             settings: {
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
               centerPadding: $slickItem.attr("data-sm-center-padding") ? $slickItem.attr("data-sm-center-padding") : '0',
-              slidesToShow: parseInt($slickItem.attr('data-sm-items')) || 2
+              slidesToShow: parseInt($slickItem.attr('data-sm-items')) || 1
             }
           },
           {
@@ -1298,7 +1298,7 @@ $document.ready(function () {
             settings: {
               centerPadding: 0,
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
-              slidesToShow: parseInt($slickItem.attr('data-md-items')) || 2
+              slidesToShow: parseInt($slickItem.attr('data-md-items')) || 1
             }
           },
           {
@@ -1306,7 +1306,7 @@ $document.ready(function () {
             settings: {
               centerPadding: 0,
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
-              slidesToShow: parseInt($slickItem.attr('data-lg-items')) || 2
+              slidesToShow: parseInt($slickItem.attr('data-lg-items')) || 1
             }
           },
           {
@@ -1314,7 +1314,7 @@ $document.ready(function () {
             settings: {
               centerPadding: 0,
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
-              slidesToShow: parseInt($slickItem.attr('data-xl-items')) || 2
+              slidesToShow: parseInt($slickItem.attr('data-xl-items')) || 1
             }
           }
         ]
