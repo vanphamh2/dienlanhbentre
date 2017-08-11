@@ -1286,7 +1286,7 @@ $document.ready(function () {
             }
           },
           {
-            breakpoint: 767,
+            breakpoint: 320,
             settings: {
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
               centerPadding: $slickItem.attr("data-sm-center-padding") ? $slickItem.attr("data-sm-center-padding") : '0',
