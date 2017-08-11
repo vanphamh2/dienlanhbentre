@@ -1282,11 +1282,13 @@ $document.ready(function () {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: parseInt($slickItem.attr('data-xs-items')) || 1
+              centerMode: $slickItem.attr("data-sm-center-mode") == "true",
+              centerPadding: $slickItem.attr("data-sm-center-padding") ? $slickItem.attr("data-sm-center-padding") : '0',
+              slidesToShow: parseInt($slickItem.attr('data-sm-items')) || 1
             }
           },
           {
-            breakpoint: 320,
+            breakpoint: 767,
             settings: {
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
               centerPadding: $slickItem.attr("data-sm-center-padding") ? $slickItem.attr("data-sm-center-padding") : '0',
