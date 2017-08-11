@@ -1276,7 +1276,7 @@ $document.ready(function () {
             breakpoint: 0,
             settings: {
               centerMode: $slickItem.attr("data-mobile-center-mode") == "true",
-              slidesToShow: parseInt($slickItem.attr('data-items')) || 1
+              slidesToShow: parseInt($slickItem.attr('data-items')) || 2
             }
           },
           {
@@ -1284,7 +1284,7 @@ $document.ready(function () {
             settings: {
               centerMode: $slickItem.attr("data-sm-center-mode") == "true",
               centerPadding: $slickItem.attr("data-sm-center-padding") ? $slickItem.attr("data-sm-center-padding") : '0',
-              slidesToShow: parseInt($slickItem.attr('data-sm-items')) || 1
+              slidesToShow: parseInt($slickItem.attr('data-sm-items')) || 2
             }
           },
           {
