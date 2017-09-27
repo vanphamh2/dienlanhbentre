@@ -13682,9 +13682,9 @@ $j(document).ready(function () {
        function toggleClasses(clickedItem, group) {
             var index = group.index(clickedItem);
             var i;
-            for (i = 1; i < groups.length; i++) {
-                groups[i].removeClass('current');
-                groups[i].eq(index).addClass('current');
+            for (i = 0; i < groups.length; i++) {
+                groups[i].removeClass('currents');
+                groups[i].eq(index).addClass('currents');
             }
         }
 
